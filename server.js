@@ -75,6 +75,12 @@ app.get('/api/shippers', (req, res) => {
   sendJsonFile('shippers.json', res);
 });
 
+// Endpoint để lấy danh sách các API có sẵn (từ listapi.json)
+app.get('/api/listapi', (req, res) => {
+  // Sử dụng lại hàm sendJsonFile để đọc và gửi nội dung của listapi.json
+  sendJsonFile('listapi.json', res);
+});
+
 // Endpoint gốc (tùy chọn)
 app.get('/', (req, res) => {
   res.send('API server is running. Access data endpoints like /api/customers, /api/products, etc.');

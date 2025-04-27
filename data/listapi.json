@@ -1,0 +1,38 @@
+[
+    {
+      "name": "customers",
+      "file": "customers.json",
+      "url": "/api/customers"
+    },
+    {
+      "name": "products",
+      "file": "products.json",
+      "url": "/api/products"
+    },
+    {
+      "name": "categories",
+      "file": "categories.json",
+      "url": "/api/categories"
+    },
+    {
+      "name": "orders",
+      "file": "orders.json",
+      "url": "/api/orders"
+    },
+    {
+      "name": "suppliers",
+      "file": "suppliers.json",
+      "url": "/api/suppliers"
+    },
+    {
+      "name": "shippers",
+      "file": "shippers.json",
+      "url": "/api/shippers"
+    },
+    {
+      "name": "employees",
+      "file": "employees.json",
+      "url": "/api/employees"
+    }
+  ]
+  
