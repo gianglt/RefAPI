@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "firstName": "Dũng",
+    "lastName": "Phạm Tiến",
+    "title": "Quản lý dự án",
+    "department": "Công nghệ",
+    "hireDate": "2022-08-15",
+    "email": "dung.pt@company.com"
+  },
+  {
+    "id": 102,
+    "firstName": "Hà",
+    "lastName": "Hoàng Thị Thu",
+    "title": "Nhân viên kinh doanh",
+    "department": "Kinh doanh",
+    "hireDate": "2023-01-20",
+    "email": "ha.htt@company.com"
+  },
+  {
+    "id": 103,
+    "firstName": "Giang",
+    "lastName": "Vũ Thành",
+    "title": "Lập trình viên",
+    "department": "Công nghệ",
+    "hireDate": "2023-05-10",
+    "email": "giang.vt@company.com"
+  }
+]

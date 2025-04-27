@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "firstName": "An",
+    "lastName": "Nguyễn Văn",
+    "email": "an.nv@example.com",
+    "phone": "0901234567",
+    "address": {
+      "street": "123 Đường ABC",
+      "city": "Hà Nội",
+      "zipCode": "100000",
+      "country": "Việt Nam"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Bình",
+    "lastName": "Trần Thị",
+    "email": "binh.tt@example.com",
+    "phone": "0912345678",
+    "address": {
+      "street": "456 Đường XYZ",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "country": "Việt Nam"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Cường",
+    "lastName": "Lê Văn",
+    "email": "cuong.lv@sample.net",
+    "phone": "0987654321",
+    "address": {
+      "street": "789 Hẻm QRS",
+      "city": "Đà Nẵng",
+      "zipCode": "550000",
+      "country": "Việt Nam"
+    }
+  }
+]

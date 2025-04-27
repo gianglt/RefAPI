@@ -1,0 +1,44 @@
+[
+  {
+    "id": 201,
+    "companyName": "Nhà cung cấp Điện tử A",
+    "contactName": "Minh Lê",
+    "contactTitle": "Trưởng phòng cung ứng",
+    "email": "minh.le@ncc-a.com",
+    "phone": "0241234567",
+    "address": {
+      "street": "Khu công nghiệp Bắc Ninh",
+      "city": "Bắc Ninh",
+      "zipCode": "160000",
+      "country": "Việt Nam"
+    }
+  },
+  {
+    "id": 202,
+    "companyName": "Công ty Phụ kiện B",
+    "contactName": "Nga Trần",
+    "contactTitle": "Giám đốc",
+    "email": "nga.tran@pk-b.vn",
+    "phone": "0287654321",
+    "address": {
+      "street": "Quận 7",
+      "city": "TP. Hồ Chí Minh",
+      "zipCode": "700000",
+      "country": "Việt Nam"
+    }
+  },
+  {
+    "id": 203,
+    "companyName": "Thiết bị ngoại vi C",
+    "contactName": "Sơn Phạm",
+    "contactTitle": "Đại diện bán hàng",
+    "email": "son.pham@tb-c.com.vn",
+    "phone": "0236987654",
+    "address": {
+      "street": "Đường Hải Phòng",
+      "city": "Đà Nẵng",
+      "zipCode": "550000",
+      "country": "Việt Nam"
+    }
+  }
+]

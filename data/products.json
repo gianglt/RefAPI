@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "Laptop Ultrabook XYZ",
+    "description": "Laptop mỏng nhẹ, hiệu năng cao",
+    "price": 25000000,
+    "categoryId": 1,
+    "stockQuantity": 50,
+    "supplierId": 201
+  },
+  {
+    "id": "PROD-002",
+    "name": "Bàn phím cơ RGB",
+    "description": "Bàn phím cơ có đèn LED RGB tùy chỉnh",
+    "price": 1500000,
+    "categoryId": 2,
+    "stockQuantity": 120,
+    "supplierId": 202
+  },
+  {
+    "id": "PROD-003",
+    "name": "Màn hình 27 inch IPS",
+    "description": "Màn hình IPS 2K, tần số quét 75Hz",
+    "price": 6000000,
+    "categoryId": 1,
+    "stockQuantity": 75,
+    "supplierId": 201
+  },
+  {
+    "id": "PROD-004",
+    "name": "Chuột không dây Ergonomic",
+    "description": "Chuột thiết kế công thái học, kết nối không dây",
+    "price": 800000,
+    "categoryId": 2,
+    "stockQuantity": 200,
+    "supplierId": 203
+  }
+]

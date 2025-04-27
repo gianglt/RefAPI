@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ORD-2024-001",
+    "customerId": 1,
+    "orderDate": "2024-07-20T10:30:00Z",
+    "status": "Đã giao hàng",
+    "totalAmount": 26500000,
+    "shipperId": 301,
+    "items": [
+      { "productId": "PROD-001", "quantity": 1, "unitPrice": 25000000 },
+      { "productId": "PROD-002", "quantity": 1, "unitPrice": 1500000 }
+    ]
+  },
+  {
+    "id": "ORD-2024-002",
+    "customerId": 2,
+    "orderDate": "2024-07-21T14:00:00Z",
+    "status": "Đang xử lý",
+    "totalAmount": 6800000,
+    "shipperId": 302,
+    "items": [
+      { "productId": "PROD-003", "quantity": 1, "unitPrice": 6000000 },
+      { "productId": "PROD-004", "quantity": 1, "unitPrice": 800000 }
+    ]
+  }
+]

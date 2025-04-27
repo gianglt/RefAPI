@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Máy tính & Linh kiện",
+    "description": "Các loại máy tính xách tay, máy tính để bàn và linh kiện."
+  },
+  {
+    "id": 2,
+    "name": "Phụ kiện máy tính",
+    "description": "Bàn phím, chuột, tai nghe và các phụ kiện khác."
+  },
+  {
+    "id": 3,
+    "name": "Thiết bị mạng",
+    "description": "Router, switch, modem và các thiết bị mạng khác."
+  }
+]
