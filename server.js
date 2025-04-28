@@ -2,6 +2,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs').promises; // Sử dụng fs.promises để làm việc với async/await
+const cors = require('cors'); // <--- 1. Require package cors
 
 const app = express();
 const port = process.env.PORT || 3333; // Sử dụng cổng môi trường hoặc mặc định 3000
@@ -10,13 +11,31 @@ const port = process.env.PORT || 3333; // Sử dụng cổng môi trường ho�
 // __dirname là thư mục chứa file server.js hiện tại
 const dataDir = path.join(__dirname, 'data');
 
+// --- Middlewares ---
+
 // Middleware để log request (tùy chọn)
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
   next();
 });
 
-// Hàm trợ giúp để đọc và gửi file JSON
+// Middleware để cho phép CORS
+// Sử dụng cors() với cấu hình mặc định (cho phép tất cả các origin)
+app.use(cors()); // <--- 2. Sử dụng middleware cors()
+
+/*
+// --- Cấu hình CORS nâng cao (Ví dụ) ---
+// Nếu bạn muốn chỉ cho phép các origin cụ thể:
+const corsOptions = {
+  origin: 'http://your-frontend-domain.com', // Chỉ cho phép domain này
+  // hoặc nhiều domain: origin: ['http://localhost:8080', 'https://your-production-frontend.com'],
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+app.use(cors(corsOptions));
+*/
+
+
+// --- Hàm trợ giúp để đọc và gửi file JSON ---
 const sendJsonFile = async (fileName, res) => {
   const filePath = path.join(dataDir, fileName);
   try {
