@@ -33,6 +33,12 @@
       "name": "employees",
       "file": "employees.json",
       "url": "/api/employees"
+    },
+    {
+      "name": "documenttypes",
+      "file": "documenttypes.json",
+      "url": "/api/documenttypes"
     }
+
   ]
   

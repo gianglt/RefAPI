@@ -1,0 +1,28 @@
+
+[
+  {
+    "id": 1,
+    "name": "Hợp đồng",
+    "description": "Các loại hợp đồng lao động, hợp đồng kinh doanh, và hợp đồng dịch vụ."
+  },
+  {
+    "id": 2,
+    "name": "Báo cáo",
+    "description": "Báo cáo tài chính, báo cáo tiến độ, và báo cáo nghiên cứu."
+  },
+  {
+    "id": 3,
+    "name": "Biên bản",
+    "description": "Biên bản cuộc họp, biên bản bàn giao, và biên bản nghiệm thu."
+  },
+  {
+    "id": 4,
+    "name": "Hóa đơn",
+    "description": "Hóa đơn bán hàng, hóa đơn dịch vụ, và hóa đơn thuế."
+  },
+  {
+    "id": 5,
+    "name": "Thư từ",
+    "description": "Thư mời, thư cảm ơn, và các loại thư khác."
+  }
+]
