@@ -94,6 +94,10 @@ app.get('/api/shippers', (req, res) => {
   sendJsonFile('shippers.json', res);
 });
 
+app.get('/api/documenttypes', (req, res) => {  
+  sendJsonFile('documenttypes.json', res);
+});
+
 // Endpoint để lấy danh sách các API có sẵn (từ listapi.json)
 app.get('/api/listapi', (req, res) => {
   // Sử dụng lại hàm sendJsonFile để đọc và gửi nội dung của listapi.json
